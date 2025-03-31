@@ -11,7 +11,7 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=PUT_YOUR_MD5_HERE"
 
 SRC_URI = "git://github.com/andoriyaprashant/agl_gsoc2025_task.git;protocol=https;branch=main"
 SRCREV = "${AUTOREV}"
-S = "${WORKDIR}/git"
+S = "${UNPACKDIR}"
 
 inherit agl-app flutter-app
 
